@@ -27,13 +27,13 @@ function Contact(props) {
       <div className="basic-contact">
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
-            <div className="contact-heading-img-div">
+            {/* <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
                 src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
                 alt=""
               />
-            </div>
+            </div> */}
             <div className="contact-heading-text-div">
               <h1
                 className="contact-heading-text"
@@ -68,11 +68,11 @@ function Contact(props) {
               >
                 {blogSection["subtitle"]}
               </p>
-              <div className="blogsite-btn-div">
+              {/* <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>
                   My Medium Profile
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="blog-heading-img-div">
               <BlogsImg theme={theme} />
