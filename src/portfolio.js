@@ -10,26 +10,23 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
-  subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+  title2: "Jeeva",
+  logo_name: "Jeeva mk",
+  nickname: "jeeva_mk",
+  full_name: "Jeeva Mk",
+  subTitle: "Passionate and self-taught MERN stack developer. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+    "https://drive.google.com/file/d/1KDQLqVprfI8af7v9XmIp0QO5wabvr5_d/view?usp=sharing",
+  mail: "mailto:jeevamk100@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
-  gitlab: " ",
-  facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  github: "https://github.com/Jeevamk",
+  linkedin: "https://www.linkedin.com/in/jeeva-mk/",
+  gmail: "jeevamk100@gmail.com",
+  instagram: "https://www.instagram.com/__j__ee__v__a__/",
+  codewars: "https://www.codewars.com/users/Jeevamk",
 };
 
 const skills = {
@@ -38,9 +35,8 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS and Angular",
-        "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Backend development using NodeJS, ExpressJS and Flask",
+        "⚡ Building responsive website front end using ReactJS",
+        "⚡ Backend development using NodeJS and ExpressJS",
       ],
       softwareSkills: [
         {
@@ -66,70 +62,6 @@ const skills = {
           },
         },
         {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "Kotlin",
-          fontAwesomeClassname: "simple-icons:kotlin",
-          style: {
-            color: "#5c79df",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
@@ -137,14 +69,13 @@ const skills = {
           },
         },
         {
-          skillName: "NextJS",
-          fontAwesomeClassname: "simple-icons:nextdotjs",
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
           style: {
-            color: "#FFFFFF",
-            backgroundColor: "#1D1D1D",
-            borderRadius: "50%",
+            color: "#61DAFB",
           },
         },
+
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
@@ -160,42 +91,26 @@ const skills = {
           },
         },
         {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
-        {
-          skillName: "Android App Development",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
             color: "#4479A1",
           },
         },
-
         {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
+          skillName: "Tailwind",
+          fontAwesomeClassname: "simple-icons:tailwind",
           style: {
-            color: "#207297",
+            color: "#439743",
           },
         },
-
+        {
+          skillName: "Material Ui",
+          fontAwesomeClassname: "simple-icons:tailwind",
+          style: {
+            color: "#439743",
+          },
+        },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",

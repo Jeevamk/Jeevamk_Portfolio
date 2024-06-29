@@ -33,7 +33,7 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
-        href={socialMediaLinks.twitter}
+        href={socialMediaLinks.codewars}
         className="icon-button twitter"
         target="_blank"
         rel="noopener noreferrer"
