@@ -96,7 +96,7 @@ const skills = {
         },
         {
           skillName: "Tailwind",
-          fontAwesomeClassname: "simple-icons:tailwind",
+          fontAwesomeClassname: "fab fa-tailwind",
           style: {
             color: "#439743",
           },
@@ -117,14 +117,14 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "fab fa-node",
           style: {
             color: "#339933",
           },
         },
         {
           skillName: "Expressjs",
-          fontAwesomeClassname: "simple-icons:expressjs",
+          fontAwesomeClassname: "fab fa-node-js",
           style: {
             color: "#339933",
           },
@@ -250,213 +250,172 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Dalhousie University",
-      subtitle: "Masters in Applied Computer Science",
+      title: "Calicut University",
+      subtitle: "Bachelor of Science in Physics",
       logo_path: "dal.png",
       alt_name: "DAL",
-      duration: "2022 - 2023",
+      duration: "2019 - 2022",
       descriptions: [
-        "⚡ Studied Advanced Software Development Concepts, Data Management & Warehousing",
-        "⚡ Learn Advanced Topics in Cloud Computing, Cloud Architecture along with Serverless Computing",
-        "⚡ Worked on projects on courses like Mobile Computing and Web Technologies.",
+        "⚡ Completed graduation in Physics with a core focus on Computer Science",
+        "⚡ Studied foundational concepts in Computer Science including C programming and basics of Python",
+        "⚡ Gained knowledge in Software Development Concepts",
       ],
-      website_link: "https://www.dal.ca/",
-    },
-    {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "sal.png",
-      alt_name: "SETI",
-      duration: "2017 - 2021",
-      descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
-      ],
-      website_link: "https://www.sal.edu.in/",
     },
   ],
 };
 
-const certifications = {
-  certifications: [
-    {
-      title: "AWS Developer Associate",
-      subtitle: "Amazon Web Services",
-      logo_path: "aws.png",
-      certificate_link:
-        "https://www.credly.com/badges/b12fbece-07f3-47f5-9dda-cd56f49e250d/public_url",
-      alt_name: "AWS",
-      color_code: "#ffc475",
-    },
-    {
-      title: "AWS Certified Cloud Practioner",
-      subtitle: "Amazon Web Services",
-      logo_path: "aws.png",
-      certificate_link:
-        "https://www.credly.com/badges/8b2db191-702d-427c-91aa-0f926be447a6/public_url",
-      alt_name: "AWS",
-      color_code: "#ffc475",
-    },
-    {
-      title: "Google Summer of Code 2019",
-      subtitle: "Google / Sugar Labs",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffc475",
-    },
-    {
-      title: "Google Code-In Student",
-      subtitle: "2014-2017",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#1e70c1",
-    },
-    {
-      title: "Google Summer of Code Mentor",
-      subtitle: "2017 / 2018 / 2020",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffbfae",
-    },
-    {
-      title: "Google Code-In Mentor",
-      subtitle: "2017 / 2018 / 2019",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#b190b0",
-    },
-    {
-      title: "Deep Learning Specialization",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
-      alt_name: "deeplearning.ai",
-      color_code: "#47A048",
-    },
-    {
-      title: "Sequence Models",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
-      alt_name: "deeplearning.ai",
-      color_code: "#F6B808",
-    },
-    {
-      title: "Convolutional Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
-      alt_name: "deeplearning.ai",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Structuring Machine Learning Projects",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
-      alt_name: "deeplearning.ai",
-      color_code: "#E2405F",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Neural Networks and Deep Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
-      alt_name: "Google",
-      color_code: "#7A7A7A",
-    },
-    {
-      title: "Improving Deep Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Android Developer Nanodegree",
-      subtitle: "Part of Google India Scholarship Program",
-      logo_path: "100.png",
-      certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
-      alt_name: "Google",
-      color_code: "#C5E2EE",
-    },
-    {
-      title: "InOut 4.0 Winner #2",
-      subtitle: "2017",
-      logo_path: "ino.png",
-      certificate_link: " ",
-      alt_name: "InOut",
-      color_code: "#fffbf3",
-    },
-  ],
-};
+// const certifications = {
+//   certifications: [
+//     {
+//       title: "AWS Developer Associate",
+//       subtitle: "Amazon Web Services",
+//       logo_path: "aws.png",
+//       certificate_link:
+//         "https://www.credly.com/badges/b12fbece-07f3-47f5-9dda-cd56f49e250d/public_url",
+//       alt_name: "AWS",
+//       color_code: "#ffc475",
+//     },
+//     {
+//       title: "AWS Certified Cloud Practioner",
+//       subtitle: "Amazon Web Services",
+//       logo_path: "aws.png",
+//       certificate_link:
+//         "https://www.credly.com/badges/8b2db191-702d-427c-91aa-0f926be447a6/public_url",
+//       alt_name: "AWS",
+//       color_code: "#ffc475",
+//     },
+//     {
+//       title: "Google Summer of Code 2019",
+//       subtitle: "Google / Sugar Labs",
+//       logo_path: "google_logo.png",
+//       certificate_link: " ",
+//       alt_name: "Google",
+//       color_code: "#ffc475",
+//     },
+//     {
+//       title: "Google Code-In Student",
+//       subtitle: "2014-2017",
+//       logo_path: "google_logo.png",
+//       certificate_link: " ",
+//       alt_name: "Google",
+//       color_code: "#1e70c1",
+//     },
+//     {
+//       title: "Google Summer of Code Mentor",
+//       subtitle: "2017 / 2018 / 2020",
+//       logo_path: "google_logo.png",
+//       certificate_link: " ",
+//       alt_name: "Google",
+//       color_code: "#ffbfae",
+//     },
+//     {
+//       title: "Google Code-In Mentor",
+//       subtitle: "2017 / 2018 / 2019",
+//       logo_path: "google_logo.png",
+//       certificate_link: " ",
+//       alt_name: "Google",
+//       color_code: "#b190b0",
+//     },
+//     {
+//       title: "Deep Learning Specialization",
+//       subtitle: "deeplearning.ai",
+//       logo_path: "deeplearning_ai_logo.png",
+//       certificate_link:
+//         "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
+//       alt_name: "deeplearning.ai",
+//       color_code: "#47A048",
+//     },
+//     {
+//       title: "Sequence Models",
+//       subtitle: "deeplearning.ai",
+//       logo_path: "deeplearning_ai_logo.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
+//       alt_name: "deeplearning.ai",
+//       color_code: "#F6B808",
+//     },
+//     {
+//       title: "Convolutional Neural Networks",
+//       subtitle: "deeplearning.ai",
+//       logo_path: "deeplearning_ai_logo.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
+//       alt_name: "deeplearning.ai",
+//       color_code: "#2AAFED",
+//     },
+//     {
+//       title: "Structuring Machine Learning Projects",
+//       subtitle: "deeplearning.ai",
+//       logo_path: "deeplearning_ai_logo.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
+//       alt_name: "deeplearning.ai",
+//       color_code: "#E2405F",
+//     },
+//     {
+//       title: "Machine Learning",
+//       subtitle: "deeplearning.ai",
+//       logo_path: "stanford_logo.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
+//       alt_name: "Stanford University",
+//       color_code: "#8C151599",
+//     },
+//     {
+//       title: "Neural Networks and Deep Learning",
+//       subtitle: "deeplearning.ai",
+//       logo_path: "deeplearning_ai_logo.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
+//       alt_name: "Google",
+//       color_code: "#7A7A7A",
+//     },
+//     {
+//       title: "Improving Deep Neural Networks",
+//       subtitle: "deeplearning.ai",
+//       logo_path: "deeplearning_ai_logo.png",
+//       certificate_link:
+//         "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
+//       alt_name: "Google",
+//       color_code: "#0C9D5899",
+//     },
+//     {
+//       title: "Android Developer Nanodegree",
+//       subtitle: "Part of Google India Scholarship Program",
+//       logo_path: "100.png",
+//       certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
+//       alt_name: "Google",
+//       color_code: "#C5E2EE",
+//     },
+//     {
+//       title: "InOut 4.0 Winner #2",
+//       subtitle: "2017",
+//       logo_path: "ino.png",
+//       certificate_link: " ",
+//       alt_name: "InOut",
+//       color_code: "#fffbf3",
+//     },
+//   ],
+// };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Internship",
   description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've completed two internships. I've  done projects on my own and I am actively looking for job. I love organizing workshops to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
-    {
-      title: "Work",
-      experiences: [
-        {
-          title: "IT Developer",
-          company: "Canada Revenue Agency",
-          company_url: "https://www.canada.ca/en/revenue-agency.html",
-          logo_path: "cra.png",
-          duration: "May 2023 - Ongoing",
-          location: "Halifax, Nova Scotia",
-          description:
-            "Canada Revenue Agency (CRA) administers tax laws for the Government of Canada and for most provinces and territories, and administers various social and economic benefit and incentive programs delivered through the tax system.",
-          color: "#f10000",
-        },
-        {
-          title: "Full Stack Developer",
-          company: "Quicko",
-          company_url: "https://quicko.com/",
-          logo_path: "quicko.jpg",
-          duration: "June 2021 - October 2021",
-          location: "Ahmedabad",
-          description:
-            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
-          color: "#2962FF",
-        },
-      ],
-    },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Google Summer of Code",
-          company: "Sugar Labs",
+          title: "Python full stack",
+          company: "Techolas Technology",
           company_url: "https://sugarlabs.org/",
           logo_path: "google_logo.png",
-          duration: "May 2019 - Aug 2019",
-          location: "Work From Home",
+          duration: "Aug 2022 - Mar 2023",
+          location: "Calicut",
           description:
             "I worked on the Dashboard project which helps users track their activities while using Sugar OS. I also worked on making a Tamagotchi-like widget for Sugar's Home Screen",
           color: "#ee3c26",
@@ -549,7 +508,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Mern stack projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -942,7 +901,7 @@ export {
   socialMediaLinks,
   skills,
   degrees,
-  certifications,
+  // certifications,
   experience,
   projectsHeader,
   contactPageData,

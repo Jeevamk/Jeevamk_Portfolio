@@ -43,27 +43,27 @@ function DegreeCard(props) {
     },
   });
 
-  const button_visit = style({
-    textDecoration: "none",
-    color: "rgba(255, 255, 255, 1)",
-    background: `${theme.accentColor}`,
-    padding: "15px 15px",
-    marginTop: "25px",
-    borderRadius: "4px",
-    borderWidth: "0px",
-    marginBottom: "20px",
-    width: "200px",
-    height: "50px",
-    fontWeight: "bold",
-    fontFamily: "Google Sans Regular",
-    fontSize: "17px",
-    transition: "all 0.2s ease-in-out",
-    cursor: "pointer",
-    ":hover": {
-      color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 2px 10px ${theme.accentColor}`,
-    },
-  });
+  // const button_visit = style({
+  //   textDecoration: "none",
+  //   color: "rgba(255, 255, 255, 1)",
+  //   background: `${theme.accentColor}`,
+  //   padding: "15px 15px",
+  //   marginTop: "25px",
+  //   borderRadius: "4px",
+  //   borderWidth: "0px",
+  //   marginBottom: "20px",
+  //   width: "200px",
+  //   height: "50px",
+  //   fontWeight: "bold",
+  //   fontFamily: "Google Sans Regular",
+  //   fontSize: "17px",
+  //   transition: "all 0.2s ease-in-out",
+  //   cursor: "pointer",
+  //   ":hover": {
+  //     color: "rgba(255, 255, 255, 1)",
+  //     boxShadow: `0 2px 10px ${theme.accentColor}`,
+  //   },
+  // });
 
   return (
     <div className="degree-card">
@@ -112,7 +112,7 @@ function DegreeCard(props) {
                 </p>
               );
             })}
-            <a
+            {/* <a
               href={degree.website_link}
               target="_blank"
               rel="noopener noreferrer"
@@ -129,7 +129,7 @@ function DegreeCard(props) {
               >
                 Visit Website
               </p>
-            </a>
+            </a> */}
           </div>
         </div>
       </Fade>

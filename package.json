@@ -12,6 +12,7 @@
     "test": "react-scripts test"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "baseui": "^12.2.0",
     "glamor": "^2.20.40",
     "react": "^16.8.0",
