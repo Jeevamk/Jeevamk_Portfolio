@@ -15,7 +15,7 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
-        href={socialMediaLinks.linkedin}
+        href={socialMediaLinks.codewars}
         className="icon-button linkedin"
         target="_blank"
         rel="noopener noreferrer"
@@ -32,15 +32,15 @@ export default function socialMedia() {
         <i className="fab fa-google"></i>
         <span></span>
       </a>
-      <a
+      {/* <a
         href={socialMediaLinks.codewars}
         className="icon-button twitter"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-twitter"></i>
+        <i className="fab fa-codewars"></i>
         <span></span>
-      </a>
+      </a> */}
       <a
         href={socialMediaLinks.instagram}
         className="icon-button instagram"

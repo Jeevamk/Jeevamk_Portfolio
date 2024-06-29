@@ -35,9 +35,13 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Backend development using NodeJS and ExpressJS",
+        "⚡ Building responsive websites using ReactJS",
+        "⚡ Proficient in frontend development with HTML5, CSS3,and JavaScript",
+        "⚡ Experience with state management libraries like Redux,Context API",
+        "⚡ Backend development using Node.js and Express.js",
+        "⚡ Knowledge of RESTful API design and integration",
       ],
+
       softwareSkills: [
         {
           skillName: "HTML5",
@@ -77,13 +81,6 @@ const skills = {
         },
 
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
@@ -118,64 +115,79 @@ const skills = {
             color: "#E94E32",
           },
         },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Expressjs",
+          fontAwesomeClassname: "simple-icons:expressjs",
+          style: {
+            color: "#339933",
+          },
+        },
       ],
     },
 
     {
-      title: "Cloud Infra-Architecture",
+      title: "Frontend Developer",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Certified AWS Developer Associate and Cloud Practioner",
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing web apps on GCP and AWS",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Proficient in HTML5 and semantic markup",
+        "⚡ Strong command of CSS3 for styling and layout",
+        "⚡ Experienced with modern JavaScript (ES6+)",
+        "⚡ Familiar with frontend frameworks like React",
       ],
+
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Html",
+          fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#4285F4",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Css",
+          fontAwesomeClassname: "fa-css3",
           style: {
             color: "#FF9900",
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#38AFBB",
           },
         },
         {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
+          skillName: "Javascript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
             color: "#6863A6",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Tailwind",
+          fontAwesomeClassname: "simple-icons:tailwind",
           style: {
             color: "#FFCA28",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Material Ui",
+          // fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#47A248",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
             color: "#1488C6",
           },
@@ -183,47 +195,48 @@ const skills = {
       ],
     },
     {
-      title: "Data Science & AI",
+      title: "Backend Developer",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
+        "⚡ Proficient in backend development using Node.js and Express.js",
+        "⚡ Experience with RESTful API design and implementation",
+        "⚡ Familiarity with databases like MongoDB or mysql",
+        "⚡ Knowledge of cloud platforms like AWS for backend deployment",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Nodejs",
+          // fontAwesomeClassname: "logos-tensorflow",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Expressjs",
+          // fontAwesomeClassname: "simple-icons:",
           style: {
             backgroundColor: "white",
             color: "#D00000",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "MongoDb",
+          // fontAwesomeClassname: "logos-pytorch",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          // fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
           },
         },
         {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
+          skillName: "Mysql",
+          // fontAwesomeClassname: "simple-icons:",
           style: {
             backgroundColor: "transparent",
             color: "#6E6E6E",
