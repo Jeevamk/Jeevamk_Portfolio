@@ -452,9 +452,8 @@ const contactPageData = {
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
+    title: "+91-7510328839  jeevamk100@gmail.com",
+    subtitle: "",
     avatar_image_path: "blogs_image.svg",
   },
 };
