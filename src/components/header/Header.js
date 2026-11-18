@@ -31,7 +31,7 @@ function Header(props) {
     },
   });
 
-  const link = settings.isSplash ? "/splash" : "home";
+  const link = settings.isSplash ? "/splash" : "/home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
@@ -130,7 +130,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Contact
               </NavLink>
             </li>
 

@@ -5,7 +5,8 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { Fade } from "react-reveal";
 import { projectsHeader, projects, socialMediaLinks } from "../../portfolio.js";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
+import Sketch from "../../components/sketch/Sketch";
+import Illustration from "../../components/illustration/Illustration";
 import { style } from "glamor";
 
 function Projects(props) {
@@ -25,7 +26,9 @@ function Projects(props) {
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
             <div className="projects-heading-img-div">
-              <ProjectsImg theme={theme} />
+              <Sketch redrawKey={theme.name + "proj"}>
+                <Illustration name="organizing-projects" theme={theme} />
+              </Sketch>
             </div>
             <div className="projects-heading-text-div">
               <h1

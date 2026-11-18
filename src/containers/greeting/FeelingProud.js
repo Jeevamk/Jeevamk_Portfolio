@@ -50,6 +50,14 @@ function FeelingProud(props) {
         />
       </g>
       <g id="head">
+        {/* long hair flowing behind the head and shoulders */}
+        <g id="hair-back">
+          <path
+            id="hairBackPath"
+            d="M66,60 C60,30 90,12 120,14 C152,12 182,32 176,64 C182,100 176,140 186,178 C190,198 174,208 160,200 C148,193 146,172 140,160 L100,160 C94,172 90,193 78,200 C64,208 48,198 54,178 C64,140 58,100 66,60 Z"
+            fill={theme.dark}
+          />
+        </g>
         <g id="ccc">
           <rect
             id="rect15"
@@ -96,6 +104,10 @@ function FeelingProud(props) {
               />
             </g>
           </g>
+          <g id="earrings">
+            <circle r="3" cy="128" cx="63" fill={theme.accentColor} />
+            <circle r="3" cy="128" cx="174" fill={theme.accentColor} />
+          </g>
         </g>
         <g id="g43" opacity="0.1">
           <path
@@ -121,8 +133,12 @@ function FeelingProud(props) {
           <path
             id="path54"
             d="M127.2,131.5c0,0,0.7,0.6,0.8,2.1c0,0.7-0.1,1.5-0.6,2.3c-0.2,0.4-0.5,0.8-0.9,1.1          c-0.4,0.3-0.8,0.5-1.3,0.8c-0.3,0.1-0.9,0.3-1.4,0.3c-0.5,0-1-0.1-1.4-0.2c-0.9-0.3-1.6-0.8-2-1.3c-0.9-1.1-0.7-2.1-0.8-2.1          c0,0,0.1,0.2,0.4,0.4c0.2,0.3,0.6,0.6,1.1,0.8c0.5,0.3,1,0.4,1.6,0.5c0.3,0,0.6,0,0.9,0c0.3,0,0.5-0.1,0.9-0.2          c0.2-0.1,0.5-0.2,0.8-0.4c0.2-0.2,0.5-0.4,0.7-0.6c0.4-0.4,0.7-1,0.9-1.5c0.2-0.5,0.3-1,0.3-1.3          C127.2,131.8,127.2,131.5,127.2,131.5z"
-            fill="#CE9A74"
+            fill="#D9777F"
           />
+        </g>
+        <g id="blush" opacity="0.45">
+          <ellipse rx="6" ry="3.2" cy="125" cx="88" fill="#F28B8B" />
+          <ellipse rx="6" ry="3.2" cy="125" cx="147" fill="#F28B8B" />
         </g>
         <g id="hair">
           <g id="sides">
@@ -226,6 +242,18 @@ function FeelingProud(props) {
         <g id="eyey2">
           <circle id="circle113" r="5" cy="114" cx="98.4" fill={theme.dark} />
           <circle id="circle115" r="5" cy="114" cx="136.9" fill={theme.dark} />
+          <g
+            id="eyelashes"
+            stroke={theme.dark}
+            strokeWidth="1.4"
+            strokeLinecap="round"
+            fill="none"
+          >
+            <path d="M93.8,111.5 L89.8,108.8" />
+            <path d="M94.6,109.6 L91.6,106.2" />
+            <path d="M141.5,111.5 L145.5,108.8" />
+            <path d="M140.7,109.6 L143.7,106.2" />
+          </g>
         </g>
       </g>
       <g id="shirt">

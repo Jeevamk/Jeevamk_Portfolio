@@ -14,17 +14,18 @@ const greeting = {
   logo_name: "Jeeva mk",
   nickname: "jeeva_mk",
   full_name: "Jeeva Mk",
-  subTitle: "Passionate and self-taught MERN stack developer. Always learning.",
+  subTitle:
+    "A software engineer who loves turning complex workflows into simple, reliable products. I build full-stack apps with Node.js, NestJS and React, and I care just as much about the people using them as the code behind them. Right now I'm leading Lead Engine at Cloudstack as Project Coordinator.",
   resumeLink:
     "https://drive.google.com/file/d/1KDQLqVprfI8af7v9XmIp0QO5wabvr5_d/view?usp=sharing",
-  mail: "mailto:jeevamk100@gmail.com",
+  mail: "mailto:jeevamkdev@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/Jeevamk",
   linkedin: "https://www.linkedin.com/in/jeeva-mk/",
-  gmail: "jeevamk100@gmail.com",
+  gmail: "jeevamkdev@gmail.com",
   instagram: "https://www.instagram.com/__j__ee__v__a__/",
   codewars: "https://www.codewars.com/users/Jeevamk",
 };
@@ -35,162 +36,152 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive websites using ReactJS",
-        "⚡ Proficient in frontend development with HTML5, CSS3,and JavaScript",
-        "⚡ Experience with state management libraries like Redux,Context API",
-        "⚡ Backend development using Node.js and Express.js",
-        "⚡ Knowledge of RESTful API design and integration",
+        "⚡ Building end-to-end products with React.js, Next.js, Node.js and NestJS",
+        "⚡ Designing message-driven microservices with RabbitMQ and BullMQ",
+        "⚡ Workflow automation, concurrency control and fault-tolerant job processing",
+        "⚡ Role-based access control, OAuth 2.0 and JWT authentication across backend and frontend",
+        "⚡ Manual and automated testing, from unit tests to cross-browser testing",
       ],
-
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
+          fontAwesomeClassname: "logos:javascript",
+          style: {},
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          skillName: "TypeScript",
+          fontAwesomeClassname: "logos:typescript-icon",
+          style: {},
+        },
+        { skillName: "React", fontAwesomeClassname: "logos:react", style: {} },
+        {
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: { color: "#888888" },
         },
         {
-          skillName: "Redux",
-          fontAwesomeClassname: "simple-icons:redux",
-          style: {
-            color: "#61DAFB",
-          },
+          skillName: "Node.js",
+          fontAwesomeClassname: "logos:nodejs-icon",
+          style: {},
         },
-
+        {
+          skillName: "NestJS",
+          fontAwesomeClassname: "logos:nestjs",
+          style: {},
+        },
         {
           skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
+          fontAwesomeClassname: "logos:mongodb-icon",
+          style: {},
         },
         {
           skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
+          fontAwesomeClassname: "logos:mysql-icon",
+          style: {},
+        },
+        { skillName: "Redis", fontAwesomeClassname: "logos:redis", style: {} },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos:docker-icon",
+          style: {},
+        },
+        { skillName: "Git", fontAwesomeClassname: "logos:git-icon", style: {} },
+      ],
+    },
+    {
+      title: "Project Coordinator",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Project Coordinator for We-Connect Lead Engine, a large-scale LinkedIn and email automation platform",
+        "⚡ Own end-to-end feature planning and execution, from requirements through development, testing and release",
+        "⚡ Defined all product features and wrote the complete technical and feature documentation",
+        "⚡ Plan and coordinate sprints in Trello, working closely across departments",
+        "⚡ Lead security vulnerability management with external bug bounty hunters and internal teams",
+        "⚡ Awarded Sprint Champion (2026) and Perfect Sync (2025) for sprint impact and collaboration",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Trello",
+          fontAwesomeClassname: "logos:trello",
+          style: {},
         },
         {
-          skillName: "Tailwind",
-          fontAwesomeClassname: "fab fa-tailwind",
-          style: {
-            color: "#439743",
-          },
+          skillName: "Slack",
+          fontAwesomeClassname: "logos:slack-icon",
+          style: {},
         },
         {
-          skillName: "Material Ui",
-          fontAwesomeClassname: "simple-icons:tailwind",
-          style: {
-            color: "#439743",
-          },
+          skillName: "GitLab",
+          fontAwesomeClassname: "logos:gitlab-icon",
+          style: {},
         },
         {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
+          skillName: "GitHub",
+          fontAwesomeClassname: "simple-icons:github",
+          style: { color: "#888888" },
         },
         {
-          skillName: "NodeJS",
-          iconifyClass: "devicon-nodejs",
-          style: {
-            color: "#339933",
-          },
+          skillName: "Postman",
+          fontAwesomeClassname: "logos:postman-icon",
+          style: {},
         },
         {
-          skillName: "Expressjs",
-          iconifyClass: "devicon-express",
-          style: {
-            color: "#339933",
-          },
+          skillName: "BrowserStack",
+          fontAwesomeClassname: "logos:browserstack",
+          style: {},
         },
       ],
     },
-
     {
       title: "Front-end Developer",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Proficient in HTML5 and semantic markup",
-        "⚡ Strong command of CSS3 for styling and layout",
-        "⚡ Experienced with modern JavaScript (ES6+)",
-        "⚡ Familiar with frontend frameworks like React",
+        "⚡ Building responsive interfaces with React.js, Next.js and Tailwind CSS",
+        "⚡ State and data management with Redux Toolkit and React Query",
+        "⚡ Forms and validation with Formik and Yup, charts with Chart.js, multi-language support with i18next",
+        "⚡ UI libraries including Ant Design and Bootstrap 5",
+        "⚡ Embeddable JavaScript SDKs, such as a multi-iframe chat widget",
+        "⚡ Testing with Jest, Vitest, React Testing Library and Playwright",
       ],
-
       softwareSkills: [
+        { skillName: "HTML5", fontAwesomeClassname: "logos:html-5", style: {} },
+        { skillName: "CSS3", fontAwesomeClassname: "logos:css-3", style: {} },
+        { skillName: "React", fontAwesomeClassname: "logos:react", style: {} },
         {
-          skillName: "Html",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#4285F4",
-          },
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: { color: "#888888" },
         },
         {
-          skillName: "Css",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#FF9900",
-          },
+          skillName: "Redux Toolkit",
+          fontAwesomeClassname: "logos:redux",
+          style: {},
         },
         {
-          skillName: "React",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#38AFBB",
-          },
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "logos:tailwindcss-icon",
+          style: {},
         },
         {
-          skillName: "Javascript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            color: "#6863A6",
-          },
+          skillName: "Ant Design",
+          fontAwesomeClassname: "logos:ant-design",
+          style: {},
         },
         {
-          skillName: "Tailwind",
-          fontAwesomeClassname: "simple-icons:tailwind",
-          style: {
-            color: "#FFCA28",
-          },
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "logos:bootstrap",
+          style: {},
+        },
+        { skillName: "Jest", fontAwesomeClassname: "logos:jest", style: {} },
+        {
+          skillName: "Playwright",
+          fontAwesomeClassname: "logos:playwright",
+          style: {},
         },
         {
-          skillName: "Material Ui",
-          // fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Typescript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            color: "#1488C6",
-          },
+          skillName: "Vitest",
+          fontAwesomeClassname: "logos:vitest",
+          style: {},
         },
       ],
     },
@@ -198,49 +189,70 @@ const skills = {
       title: "Backend Developer",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Proficient in backend development using Node.js and Express.js",
-        "⚡ Experience with RESTful API design and implementation",
-        "⚡ Familiarity with databases like MongoDB or mysql",
-        "⚡ Knowledge of cloud platforms like AWS for backend deployment",
+        "⚡ Scalable services and RESTful APIs with Node.js, Express.js and NestJS, documented with Swagger",
+        "⚡ Queues and real-time messaging with RabbitMQ, BullMQ, Redis, Socket.io and webhooks",
+        "⚡ Databases: MongoDB (Mongoose, aggregation pipelines), MySQL with TypeORM, and Redis",
+        "⚡ Security: JWT, OAuth 2.0, Passport.js, RBAC and AES-256-GCM encryption",
+        "⚡ DevOps with Docker, Nginx, PM2, AWS S3 and Fluentd logging",
+        "⚡ Integrations and automation with n8n, Slack, Trello and Google Sheets APIs",
       ],
       softwareSkills: [
         {
-          skillName: "Nodejs",
-          // fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "Node.js",
+          fontAwesomeClassname: "logos:nodejs-icon",
+          style: {},
         },
         {
-          skillName: "Expressjs",
-          // fontAwesomeClassname: "simple-icons:",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
+          skillName: "Express.js",
+          fontAwesomeClassname: "simple-icons:express",
+          style: { color: "#888888" },
         },
         {
-          skillName: "MongoDb",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "NestJS",
+          fontAwesomeClassname: "logos:nestjs",
+          style: {},
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "logos:rabbitmq-icon",
+          style: {},
+        },
+        { skillName: "Redis", fontAwesomeClassname: "logos:redis", style: {} },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "logos:mongodb-icon",
+          style: {},
         },
         {
-          skillName: "Mysql",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            backgroundColor: "transparent",
-            color: "#6E6E6E",
-          },
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql-icon",
+          style: {},
+        },
+        {
+          skillName: "Socket.io",
+          fontAwesomeClassname: "simple-icons:socketdotio",
+          style: { color: "#888888" },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos:docker-icon",
+          style: {},
+        },
+        { skillName: "Nginx", fontAwesomeClassname: "logos:nginx", style: {} },
+        {
+          skillName: "AWS S3",
+          fontAwesomeClassname: "logos:aws-s3",
+          style: {},
+        },
+        {
+          skillName: "Swagger",
+          fontAwesomeClassname: "logos:swagger",
+          style: {},
+        },
+        {
+          skillName: "n8n",
+          fontAwesomeClassname: "simple-icons:n8n",
+          style: { color: "#EA4B71" },
         },
       ],
     },
@@ -407,6 +419,190 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
+      title: "Work",
+      experiences: [
+        {
+          title: "Software Engineer",
+          company: "Cloudstack Automation Pvt Ltd.",
+          company_url: "https://cloudstackai.com/",
+          logo_path: "cloudstack_logo.svg",
+          duration: "Aug 2024 - Present",
+          location: "Calicut, Kerala",
+          description:
+            "Software Engineer with a strong backend focus, building scalable services with Node.js, NestJS, React.js, Next.js, MongoDB and MySQL. Project Coordinator for Lead Engine, a large-scale LinkedIn and email automation platform, and primary point of contact for platform security vulnerabilities.",
+          awards: [
+            { name: "Sprint Champion", year: "2026" },
+            { name: "Perfect Sync", year: "2025" },
+          ],
+          projects: [
+            {
+              name: "We-Connect Lead Engine",
+              period: "2026 - Present",
+              stack: [
+                "NestJS",
+                "TypeScript",
+                "BullMQ",
+                "Redis",
+                "MongoDB",
+                "MySQL",
+                "REST APIs",
+              ],
+              highlights: [
+                {
+                  title: "Project Coordination & Feature Ownership",
+                  text:
+                    "Led end-to-end feature planning and execution for a workflow-based LinkedIn and email campaign automation platform; defined all features, wrote the complete technical documentation and coordinated sprints in Trello.",
+                },
+                {
+                  title: "Campaign Execution Engine",
+                  text:
+                    "Owned the execution logic, including node execution, bot action dispatch, delays, campaign status transitions, loop-safe rerouting with backward history rewind and progress recovery after dispatch failures.",
+                },
+                {
+                  title: "Template-Based Workflow Execution",
+                  text:
+                    "Built execution for campaigns created from predefined workflow templates, letting users launch ready-made multi-step outreach flows.",
+                },
+                {
+                  title: "AI Support Agent Endpoints",
+                  text:
+                    "Built the APIs behind the platform's AI assistant, which writes and refines personalized replies to leads, detects whether a lead's response is positive or negative, scores and qualifies leads automatically, and adds AI-personalized text to outreach messages with a live preview.",
+                },
+                {
+                  title: "Node & Campaign Profile Management",
+                  text:
+                    "Built tracking for every step of a campaign workflow, including automated lead-research and lead-qualification steps, and managed each lead's journey through a campaign, with eligibility checks, pausing and resuming individual leads, and automatic retries.",
+                },
+                {
+                  title: "Concurrency & Queue Processing",
+                  text:
+                    "Built a concurrency-safe InMail credit system with locking, daily-limit enforcement and one-by-one BullMQ processing, plus a retry system that separates retryable from non-retryable errors.",
+                },
+                {
+                  title: "Performance Optimization",
+                  text:
+                    "Optimized slow campaign and contact endpoints by replacing per-profile lookups with batch profile fetching and serving AI-assist fields directly from the database, reducing response times.",
+                },
+                {
+                  title: "Lead Enrichment & Data Import",
+                  text:
+                    "Built bulk and type-based email enrichment with credit tracking, and CSV lead import with automatic column mapping.",
+                },
+                {
+                  title: "Testing & QA",
+                  text:
+                    "Tested and validated workflow behavior before release, including cross-browser testing on BrowserStack.",
+                },
+              ],
+            },
+            {
+              name: "We-Link API",
+              period: "2024 - 2025",
+              stack: [
+                "NestJS",
+                "React",
+                "Redux Toolkit",
+                "RabbitMQ",
+                "BullMQ",
+                "Redis",
+                "n8n",
+              ],
+              highlights: [
+                {
+                  title: "Microservices & Messaging",
+                  text:
+                    "Set up RabbitMQ publishers and consumers, BullMQ with Redis and Fluentd log transport from scratch, with a global response middleware and centralized error handling.",
+                },
+                {
+                  title: "Role-Based Access Control",
+                  text:
+                    "Designed RBAC for team members and per-key API permissions, enforced across backend APIs and the dashboard, reports and settings screens.",
+                },
+                {
+                  title: "Authentication & Notifications",
+                  text:
+                    "Built OTP-based sign-up and password reset with JWT and Passport, a webhook consumer and queue-based email notifications.",
+                },
+                {
+                  title: "Workflow Automation",
+                  text:
+                    "Integrated n8n workflows connecting We-Link with internal services and external platforms.",
+                },
+                {
+                  title: "Frontend & Testing",
+                  text:
+                    "Built team and API key management in React with search, filters and validation, and wrote unit tests for the core settings modules.",
+                },
+              ],
+            },
+            {
+              name: "Sappy - Customer Support Chat Platform",
+              period: "2025",
+              stack: [
+                "Node.js",
+                "React",
+                "JavaScript SDK",
+                "Webpack",
+                "i18next",
+              ],
+              highlights: [
+                {
+                  title: "Backend APIs",
+                  text:
+                    "Built REST APIs for live chat, ticketing, user conversations, notifications and Help Center integrations.",
+                },
+                {
+                  title: "Embeddable Widget SDK",
+                  text:
+                    "Built a multi-iframe JavaScript SDK that coordinates launcher, notification and chat frames over postMessage, with notification stacking and unread counts.",
+                },
+                {
+                  title: "Customization & Localization",
+                  text:
+                    "Exposed 20+ script-side options (theming, tabs, operating hours, AI agent and team conversations) and added multi-language support with automatic language detection.",
+                },
+              ],
+            },
+            {
+              name: "Warehouse - IP & Proxy Management Service",
+              period: "2025 - 2026",
+              stack: ["NestJS Microservices", "RabbitMQ", "Redis", "MongoDB"],
+              highlights: [
+                {
+                  title: "IP Lifecycle Management",
+                  text:
+                    "Built IP allocation, rotation, termination and quarantine, with a cron job that releases quarantined IPs automatically.",
+                },
+                {
+                  title: "Bulk IP Management",
+                  text:
+                    "Built bulk IP import with IP-range expansion, duplicate handling, validation and excluded-range filtering.",
+                },
+                {
+                  title: "Proxy Selection & Fallback",
+                  text:
+                    "Built provider selection with fallback across Bright Data data center, ISP and internal proxies, with Slack alerts when no suitable IPs are available.",
+                },
+              ],
+            },
+            {
+              name: "Simpliq",
+              period: "2025",
+              stack: ["NestJS", "MongoDB"],
+              highlights: [
+                {
+                  title: "Settings APIs",
+                  text:
+                    "Built REST endpoints for user profiles, profile image upload, notification preferences, team permissions, and AI, LinkedIn-limit, schedule and integration settings.",
+                },
+              ],
+            },
+          ],
+          color: "#7B5CFF",
+        },
+      ],
+    },
+    {
       title: "Internships",
       experiences: [
         {
@@ -452,7 +648,7 @@ const contactPageData = {
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
-    title: "+91-7510328839  jeevamk100@gmail.com",
+    title: "+91-7510328839  jeevamkdev@gmail.com",
     subtitle: "",
     avatar_image_path: "blogs_image.svg",
   },
@@ -460,6 +656,58 @@ const contactPageData = {
 
 const projects = {
   data: [
+    {
+      name: "Taskvane",
+      url: "https://taskvane-fawn.vercel.app/",
+      description:
+        "A multi-tenant SaaS platform that keeps Trello, Google Sheets and Slack in sync, with secure OAuth and reliable, duplicate-free syncing.",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript-icon",
+        },
+        {
+          name: "NestJS",
+          iconifyClass: "logos-nestjs",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb",
+        },
+        {
+          name: "Trello",
+          iconifyClass: "logos-trello",
+        },
+        {
+          name: "Slack",
+          iconifyClass: "logos-slack-icon",
+        },
+      ],
+    },
+    {
+      name: "Carbon Atlas",
+      url: "https://carbon-atlas-eta.vercel.app",
+      description:
+        "An interactive D3 explorer of CO2 emissions for every country from 1950 to 2025, with animated bubble, ranking and trend charts.",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "D3.js",
+          iconifyClass: "logos-d3",
+        },
+        {
+          name: "Vite",
+          iconifyClass: "logos-vitejs",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
     {
       name: "O' Clock (Ecommerce Watch Store)",
       url: "https://www.oclock.digital/",

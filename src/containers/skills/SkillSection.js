@@ -3,19 +3,19 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
-// import DesignImg from "./DesignImg";
+import Sketch from "../../components/sketch/Sketch";
+import Illustration from "../../components/illustration/Illustration";
+import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
+    return <Illustration name="secure-server" theme={props.theme} />;
   else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+    return <Illustration name="typing-code" theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  // return <DesignImg theme={props.theme} />;
+    return <Illustration name="personal-website" theme={props.theme} />;
+  else if (props.fileName === "DesignImg")
+    return <DesignImg theme={props.theme} />;
 }
 
 function SkillSection(props) {
@@ -28,7 +28,9 @@ function SkillSection(props) {
             <div key={skill.title} className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <Sketch redrawKey={theme.name + skill.fileName}>
+                    <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  </Sketch>
                 </div>
               </Fade>
 
@@ -89,7 +91,9 @@ function SkillSection(props) {
               </div>
               <Fade right duration={2000}>
                 <div className="skills-image-div">
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <Sketch redrawKey={theme.name + skill.fileName}>
+                    <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  </Sketch>
                 </div>
               </Fade>
             </div>

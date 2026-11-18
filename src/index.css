@@ -76,3 +76,20 @@ body {
     line-height: normal;
   }
 }
+
+/* Base tooltip styles for react-bootstrap tooltips (Bootstrap's own CSS isn't
+   loaded). Without these, a tooltip briefly renders as a normal block at the
+   end of the page, which grows the page and makes it jump/scroll on hover. */
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1070;
+  pointer-events: none;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.tooltip.fade {
+  transition: opacity 0.15s linear;
+}

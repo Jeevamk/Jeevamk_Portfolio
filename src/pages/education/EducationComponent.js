@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Educations from "../../containers/education/Educations";
 // import Certifications from "../../containers/certifications/Certifications";
+import Sketch from "../../components/sketch/Sketch";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
@@ -16,7 +17,9 @@ function Education(props) {
         <Fade bottom duration={2000} distance="40px">
           <div className="heading-div">
             <div className="heading-img-div">
-              <EducationImg theme={theme} />
+              <Sketch redrawKey={theme.name + "edu"}>
+                <EducationImg theme={theme} />
+              </Sketch>
             </div>
             <div className="heading-text-div">
               <h1 className="heading-text" style={{ color: theme.text }}>

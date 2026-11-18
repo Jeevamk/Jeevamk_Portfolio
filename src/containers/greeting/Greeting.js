@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
+import Sketch from "../../components/sketch/Sketch";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 
@@ -50,7 +51,9 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            <Sketch redrawKey={theme.name + "hero"}>
+              <FeelingProud theme={theme} />
+            </Sketch>
           </div>
         </div>
       </div>

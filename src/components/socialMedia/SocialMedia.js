@@ -15,7 +15,7 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
-        href={socialMediaLinks.codewars}
+        href={socialMediaLinks.linkedin}
         className="icon-button linkedin"
         target="_blank"
         rel="noopener noreferrer"

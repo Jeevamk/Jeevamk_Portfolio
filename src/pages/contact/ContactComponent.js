@@ -2,24 +2,17 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
+import Sketch from "../../components/sketch/Sketch";
+import Illustration from "../../components/illustration/Illustration";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
-import { style } from "glamor";
+import { contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 
 function Contact(props) {
   const theme = props.theme;
-
-  const styles = style({
-    backgroundColor: `${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
-    },
-  });
 
   return (
     <div className="contact-main">
@@ -48,11 +41,6 @@ function Contact(props) {
                 {ContactData["description"]}
               </p>
               <SocialMedia />
-              <br />
-              <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
-              </a>
             </div>
           </div>
         </Fade>
@@ -75,7 +63,9 @@ function Contact(props) {
               </div> */}
             </div>
             <div className="blog-heading-img-div">
-              <BlogsImg theme={theme} />
+              <Sketch redrawKey={theme.name + "contact"}>
+                <Illustration name="my-resume" theme={theme} maxHeight={380} />
+              </Sketch>
             </div>
           </div>
         </Fade>
